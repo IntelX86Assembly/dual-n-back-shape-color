@@ -111,7 +111,7 @@ function showNext() {
   timer = setTimeout(() => {
     game.awaitingAnswer = false;
     updateButtons(false);
-    clearStimulus();
+  //  clearStimulus();
 
     if (game.index >= config.rounds) {
       finishGame();
