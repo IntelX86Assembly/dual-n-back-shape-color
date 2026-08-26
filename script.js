@@ -50,7 +50,7 @@ function setStimulus(stimulus) {
 }
 
 function clearStimulus() {
-  els.shape.className = "shape circle";
+  els.shape.className = "shape";
   els.shape.style.background = "transparent";
   els.shape.style.borderBottomColor = "";
 }
