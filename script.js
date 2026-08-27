@@ -130,7 +130,7 @@ function startGame() {
   setStatus("Get ready…");
 
   // Small delay before first stimulus.
-  timer = setTimeout(showNext, 500);
+  timer = setTimeout(showNext, 1500);
 }
 
 
