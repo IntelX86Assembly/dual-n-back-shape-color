@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dual N-Back</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">DUAL N-BACK</div>
+  <button id="menuButton" class="menu-button" aria-label="Settings">☰</button>
+</header>
+
+<aside id="settingsPanel" class="settings-panel" aria-hidden="true">
+  <h2>Game Settings</h2>
+  <label>N-back level<input id="nbackInput" type="number" min="1" max="20" value="2"></label>
+  <label>Number of rounds<input id="roundsInput" type="number" min="1" max="500" value="20"></label>
+  <label>Seconds per stimulus<input id="lengthInput" type="number" min="0.25" max="30" step="0.25" value="2"></label>
+  <button id="applySettings" class="settings-apply">Apply settings</button>
+</aside>
+
+<main class="app">
+<section class="game-panel">
+  <div id="status" class="status">Press Start or Space</div>
+  <div class="stimulus-area"><div id="shape" class="shape"></div></div>
+  <div class="answer-buttons">
+    <button id="shapeButton" class="answer-button shape-answer" disabled>f : shape</button>
+    <button id="colorButton" class="answer-button color-answer" disabled>j : color</button>
+  </div>
+  <div id="roundInfo" class="round-info">Ready</div>
+  <div class="game-controls">
+    <button id="startButton" class="control-button start-button">Start</button>
+    <button id="stopButton" class="control-button stop-button" disabled>Stop</button>
+  </div>
+  <div class="keyboard-hint">Space = Start &nbsp; • &nbsp; F = Shape &nbsp; • &nbsp; J = Color</div>
+</section>
+
+<section id="results" class="results-panel hidden">
+  <h2>Results</h2>
+  <div id="overallSummary" class="overall-summary"></div>
+  <div class="result-columns">
+    <div class="result-card"><h3>Shape</h3><div id="shapeResults"></div></div>
+    <div class="result-card"><h3>Color</h3><div id="colorResults"></div></div>
+  </div>
+  <button id="playAgain" class="play-again">Play Again</button>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
