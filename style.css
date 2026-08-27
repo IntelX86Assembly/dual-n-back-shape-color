@@ -122,7 +122,7 @@ main {
 .shape {
   width: 190px;
   height: 190px;
-  background: white;
+  background: transparent;
   transition: background .08s linear;
 }
 
