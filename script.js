@@ -10,14 +10,14 @@ const shapes = [
 ];
 
 const colors = {
-  purple: "#c9b6ff",
-  blue: "#a9d8ff",
-  green: "#b9e8c2",
-  yellow: "#fff0a8",
-  orange: "#ffc58f",
-  red: "#ffaaa9",
-  pink: "#ffb8d2",
-  white: "#f5f4ef"
+  purple: "#d9caff", // brighter purple
+  blue: "#c0eaff",   // brighter blue
+  green: "#d0f2d0",  // brighter green
+  yellow: "#ffffa0", // brighter yellow
+  orange: "#ffd699", // brighter orange
+  red: "#ff7a7a",    // brighter red
+  pink: "#ffcadf",   // brighter pink
+  white: "#ffffff"   // pure white (already brightest)
 };
 
 const colorNames = Object.keys(colors);
