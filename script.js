@@ -130,7 +130,7 @@ function startGame() {
   setStatus("Get ready…");
 
   // Small delay before first stimulus.
-  timer = setTimeout(showNext, 1500);
+  timer = setTimeout(showNext, 1000);
 }
 
 
@@ -240,7 +240,9 @@ function endCurrentRound() {
    * Wait the configured amount of time before
    * showing the next stimulus.
    */
-  timer = setTimeout(showNext, config.speed * 1000);
+  timer = setTimeout(showNext, config.speed * 250);
+  //timer = setTimeout(showNext, config.speed * 1000);
+
 }
 
 
