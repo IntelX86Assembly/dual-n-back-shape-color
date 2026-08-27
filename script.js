@@ -1,5 +1,15 @@
 const shapes=["triangle","square","pentagon","hexagon","septagon","octagon","nonagon","circle"];
-const colors={purple:"#a970ff",blue:"#36a9ff",green:"#35e18a",yellow:"#ffe34d",orange:"#ff8b32",red:"#ff4568",pink:"#ff58b8",white:"#ffffff"};
+//const colors={purple:"#a970ff",blue:"#36a9ff",green:"#35e18a",yellow:"#ffe34d",orange:"#ff8b32",red:"#ff4568",pink:"#ff58b8",white:"#ffffff"};
+const colors = {
+  purple: "#9b30ff",   // Bright, vivid purple
+  blue: "#00bfff",     // Bright, vivid blue
+  green: "#00fa9a",    // Bright, vivid green (medium spring green)
+  yellow: "#ffd700",   // Bright, rich gold/yellow
+  orange: "#ff7f00",   // Bright, vivid orange
+  red: "#ff0000",      // Bright, pure red
+  pink: "#ff69b4",     // Hot pink
+  white: "#ffffff"     // White remains the same
+};
 const colorNames=Object.keys(colors);
 
 const els={
