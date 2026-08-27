@@ -10,14 +10,14 @@ const shapes = [
 ];
 
 const colors = {
-  purple: "#d9caff", // brighter purple
-  blue: "#c0eaff",   // brighter blue
-  green: "#d0f2d0",  // brighter green
-  yellow: "#ffffa0", // brighter yellow
-  orange: "#ffd699", // brighter orange
-  red: "#ff7a7a",    // brighter red
-  pink: "#ffcadf",   // brighter pink
-  white: "#ffffff"   // pure white (already brightest)
+  purple: "#8b68b3",   // deep purple
+  blue: "#006994",     // deep blue
+  green: "#2e7d32",    // deep green
+  yellow: "#b8860b",   // deep gold/amber
+  orange: "#c75c1f",   // deep orange
+  red: "#b22222",      // deep red
+  pink: "#c71585",     // deep pink
+  white: "#ffffff"     // white
 };
 
 const colorNames = Object.keys(colors);
